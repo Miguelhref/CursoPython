@@ -116,6 +116,7 @@ for resultado in resultados:
                     "price":price,
                     "pvp":pvp
                     })
+   
 print(f"\nTotal elementos únicos encontrados: {len(resultados)}")
 for i, url_elemento in enumerate(resultados):
     print(f"\n Elemento {i+1}:\n{url_elemento}")

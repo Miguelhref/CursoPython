@@ -9,6 +9,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 opts = Options()
 opts.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36")
@@ -35,11 +39,30 @@ except Exception as e:
 #def search(keyword):
 keyword = "iphone"
 while (True):
-    typetextfirst = driver.find_element(By.CLASS_NAME,"x-search-input x-input x-ml-0 x-pl-8")
-    typetextfirst.clear()
-    typetextfirst.send_keys(keyword)
-    cargar_mas =driver.find_element(By.XPATH,'//button[@aria-label = "Load"]')
+    
+    busqueda = driver.find_element(By.ID,'search-input')
+    busqueda.click()
+    sleep(2)
+    busqueda = driver.find_element(By.XPATH,'//input[@enterkeyhint="search"]')
+    sleep(2)
+    busqueda.click()
+    sleep(1)
+    busqueda.send_keys("iphone") #sustiuir por el valor de keyword
+    
+    boton_buscar = driver.find_element(By.CLASS_NAME,"x-search-button.x-button.x-input-group-button-primary")
+    boton_buscar.click()
+    sleep(2)
+    
+    
+    sleep(3)
+    driver.get(driver.current_url)
     #tree = HTMLParser(driver.page_source)
+
+    
+ 
+    
+    cargar_mas =driver.find_element(By.XPATH,'//button[@aria-label = "Load"]')
+
     elementos = driver.find_elements(By.TAG_NAME,'article')
     for elemento in elementos:
 
