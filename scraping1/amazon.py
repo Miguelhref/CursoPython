@@ -50,11 +50,10 @@ while True:
 
     for elemento in elementos:
         enlace = elemento.css_first('a[data-testid="product-card-link"]')
-        if enlace:
-            href = enlace.attributes.get('href')
-            if href and href not in elementos_unicos:
-                elementos_unicos.add(href)
-                resultados.append(href)
+        href = enlace.attributes.get('href')
+        if href and href not in elementos_unicos:
+            elementos_unicos.add(href)
+            resultados.append(href)
           
 
     # Detectar si ya no hay nuevos elementos
@@ -103,7 +102,12 @@ for resultado in resultados:
 
     imagen_element = tree.css_first('#imgTagWrapperId img')
     image_url = imagen_element.attributes.get('src') if imagen_element else None
-    sku = tree.css_first('td.a-size-base prodDetAttrValue')
+    asin_div = tree.css_first('div#averageCustomerReviews')
+    sku = asin_div.attributes.get('data-asin')
+    
+   
+# Si hay solo uno y es el del ASIN, puedes tomarlo directamente
+    
     diccionario.append(
                     {"sku":sku,
                     "image_url":image_url,
