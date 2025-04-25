@@ -92,12 +92,12 @@ def scrap_pullandbear(keyword,archivo_json):
                 try:
                     price_elem = article.find_element(By.CSS_SELECTOR, 'price-element')
                     price_shadow = driver.execute_script("return arguments[0].shadowRoot", price_elem)
-                    price = price_shadow.find_element(By.CSS_SELECTOR, 'p.sale.price').text.replace("\xa0", "").replace(",", ".").strip()
-                    pvp = price_shadow.find_element(By.CSS_SELECTOR, 'p.old.price').text.replace("\xa0", "").replace(",", ".").strip()
+                    price = price_shadow.find_element(By.CSS_SELECTOR, 'p.sale.price').text.replace("\xa0", "").replace(".","").replace(",", ".").strip()
+                    pvp = price_shadow.find_element(By.CSS_SELECTOR, 'p.old.price').text.replace("\xa0", "").replace(".","").replace(",", ".").strip()
                 except NoSuchElementException:
                     price_elem = article.find_element(By.CSS_SELECTOR, 'price-element')
                     price_shadow = driver.execute_script("return arguments[0].shadowRoot", price_elem)
-                    price = price_shadow.find_element(By.CSS_SELECTOR, 'p.price').text.replace("\xa0", "").replace(",", ".").strip()
+                    price = price_shadow.find_element(By.CSS_SELECTOR, 'p.price').text.replace("\xa0", "").replace(".","").replace(",", ".").strip()
                     pvp = None
 
                 diccionario.append({
