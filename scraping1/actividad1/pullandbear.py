@@ -18,6 +18,7 @@ def scrap_pullandbear(keyword,archivo_json):
     opts = Options()
     opts.add_argument("user-agent=Mozilla/5.0 (...) Safari/537.36")
     opts.add_argument("--window-position=1100,0")
+    opts.add_argument("--headless")
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=opts)
 
     driver.get("https://www.pullandbear.com/es/")
