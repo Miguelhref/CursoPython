@@ -1,0 +1,602 @@
+[
+  {
+    "sku": "11264",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/m/a/mandosamsung.jpg",
+    "item_url": "https://www.electroprecio.com/mando-a-distancia-samsung-para-lcd-plasma-led",
+    "name": "Mando a Distancia Samsung para LCD/Plasma/LED",
+    "price": "59.00",
+    "pvp": null
+  },
+  {
+    "sku": "62666",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/o/l/oled55b46la_1.png",
+    "item_url": "https://www.electroprecio.com/oled-lg-oled55b46la-55-4k-smart-tv",
+    "name": "OLED LG OLED55B46LA 55\" 4K Smart TV",
+    "price": "809.00",
+    "pvp": "1299.00"
+  },
+  {
+    "sku": "62741",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/q/n/qned91t6a.png",
+    "item_url": "https://www.electroprecio.com/qned-mini-led-lg-65qned91t6a-65-4k-smart-tv",
+    "name": "QNED Mini LED LG 65QNED91T6A 65\" 4K Smart TV",
+    "price": "1448.00",
+    "pvp": "1999.00"
+  },
+  {
+    "sku": "66782",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/t/h/thum-1600x1062_3.png",
+    "item_url": "https://www.electroprecio.com/nanocell-lg-43nano81t6a-43-4k-smart-tv",
+    "name": "NANOCELL LG 43NANO81T6A 43\" 4K Smart TV",
+    "price": "328.00",
+    "pvp": "599.00"
+  },
+  {
+    "sku": "53041",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/3/2/32lq630b6la.jpg",
+    "item_url": "https://www.electroprecio.com/led-lg-32lq630b6la-32-hd-smart-tv-wifi",
+    "name": "LED LG 32LQ630B6LA 32\" HD Smart TV ",
+    "price": "179.00",
+    "pvp": "279.00"
+  },
+  {
+    "sku": "63354",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/t/q/tq55ls03dauxxc_1.png",
+    "item_url": "https://www.electroprecio.com/qled-samsung-tq43ls03dauxxc-43-4k-smart-tv",
+    "name": "QLED Samsung TQ43LS03DAUXXC 43\" 4K Smart TV",
+    "price": "649.00",
+    "pvp": "1099.00"
+  },
+  {
+    "sku": "62664",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/o/l/oled42c44la.png",
+    "item_url": "https://www.electroprecio.com/oled-evo-lg-oled42c44la-42-4k-smart-tv",
+    "name": "OLED Evo LG OLED42C44LA 42\" 4K Smart TV",
+    "price": "779.00",
+    "pvp": "1399.00"
+  },
+  {
+    "sku": "63564",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/1/5/1540-1_1.jpg",
+    "item_url": "https://www.electroprecio.com/led-silver-411593-32-hd",
+    "name": "LED SILVER 411593 32\" HD ",
+    "price": "114.00",
+    "pvp": null
+  },
+  {
+    "sku": "64430",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/5/5/550x353.png",
+    "item_url": "https://www.electroprecio.com/led-samsung-ue43cu7092-43-4k-uhd-smart-tv",
+    "name": "LED SAMSUNG UE43CU7092 43\" 4K UHD Smart TV",
+    "price": "275.00",
+    "pvp": "286.00"
+  },
+  {
+    "sku": "62765",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/u/t/ut91006la.png",
+    "item_url": "https://www.electroprecio.com/led-lg-43ut91006la-43-4k-smart-tv",
+    "name": "LED LG 43UT91006LA 43\" 4K Smart TV",
+    "price": "389.00",
+    "pvp": "549.00"
+  },
+  {
+    "sku": "67674",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/e/s/es-qled-qn95d-tq55qn95datxxc-541.png",
+    "item_url": "https://www.electroprecio.com/qled-samsung-tq55qn95datxxc-55-4k-smart-tv",
+    "name": "QLED SAMSUNG TQ55QN95DATXXC 55\" 4K SMART TV",
+    "price": "1079.00",
+    "pvp": "1399.00"
+  },
+  {
+    "sku": "63009",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/a/c/ac7c6e303ca79dfd1f7541508120caeff3a02d07.jpg_1.jpg",
+    "item_url": "https://www.electroprecio.com/led-samsung-tu75du7105kxxc-75-4k-smart-tv",
+    "name": "LED Samsung TU75DU7105KXXC 75\" 4K Smart TV",
+    "price": "765.00",
+    "pvp": "769.00"
+  },
+  {
+    "sku": "62107",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/l/s/ls03b_3.png",
+    "item_url": "https://www.electroprecio.com/qled-the-frame-samsung-tq32ls03cbuxxc-32-full-hd-smart-tv-wifi",
+    "name": "QLED The Frame Samsung TQ32LS03CBUXXC 32\" Full HD Smart TV ",
+    "price": "349.00",
+    "pvp": "699.00"
+  },
+  {
+    "sku": "66872",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/t/v/tv-xiaomi-ela5192eu-32-a-2025-hd-googletv-dolby-audio.jpg.jpg",
+    "item_url": "https://www.electroprecio.com/led-xiaomi-ela5192eu-32-4k-hd-smart-tv",
+    "name": "LED XIAOMI 32 A 2025 32\" L32M8-P2EU HD Smart TV",
+    "price": "151.00",
+    "pvp": null
+  },
+  {
+    "sku": "53042",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/3/2/32lq63806lc.jpg",
+    "item_url": "https://www.electroprecio.com/led-lg-32lq63806lc-32-full-hd-smart-tv-wifi-blanco",
+    "name": "LED LG 32LQ63806LC 32\" Full HD Smart TV Blanco",
+    "price": "209.00",
+    "pvp": "329.00"
+  },
+  {
+    "sku": "62740",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/o/l/oled55b46la_2.png",
+    "item_url": "https://www.electroprecio.com/oled-lg-oled77b46la-77-4k-smart-tv",
+    "name": "OLED LG OLED77B46LA 77\" 4K Smart TV",
+    "price": "1559.00",
+    "pvp": "2599.00"
+  },
+  {
+    "sku": "69135",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/a/r/art_tcl-tv_2065c635_1.jpg.jpg",
+    "item_url": "https://www.electroprecio.com/qled-tcl-65c635-65-4k-smart-tv",
+    "name": "QLED TCL 65C635 65\" 4K Smart TV",
+    "price": "450.00",
+    "pvp": "599.00"
+  },
+  {
+    "sku": "62946",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/l/g/lg-24tq520s.jpg.jpg",
+    "item_url": "https://www.electroprecio.com/led-lg-24tq520s-pz-24-hd-smart-tv",
+    "name": "LED LG 24TQ520S-PZ 24\" HD Smart TV",
+    "price": "129.00",
+    "pvp": "219.00"
+  },
+  {
+    "sku": "63171",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/8/1/81bLAmRk2wL._AC_SX425_.jpg.jpg",
+    "item_url": "https://www.electroprecio.com/led-telefunken-32dtah724-32-hd-smart-tv",
+    "name": "LED Telefunken 32DTAH724 32\" HD Smart TV",
+    "price": "175.00",
+    "pvp": null
+  },
+  {
+    "sku": "65336",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/t/v/tv-samsung-qe43q60dauxxh-43-qled.png",
+    "item_url": "https://www.electroprecio.com/qled-samsung-qe43q60d-43-4k-smart-tv-2024",
+    "name": "QLED SAMSUNG QE43Q60D 43\" 4K Smart TV (2024)",
+    "price": "339.00",
+    "pvp": "559.00"
+  },
+  {
+    "sku": "53040",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/3/2/32lq63006la.jpg",
+    "item_url": "https://www.electroprecio.com/led-lg-32lq63006la-32-full-hd-smart-tv-wifi",
+    "name": "LED LG 32LQ63006LA 32\" Full HD Smart TV ",
+    "price": "198.00",
+    "pvp": "329.00"
+  },
+  {
+    "sku": "63353",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/t/q/tq55ls03dauxxc.png",
+    "item_url": "https://www.electroprecio.com/qled-samsung-tq55ls03dauxxc-55-4k-smart-tv-2024",
+    "name": "QLED Samsung TQ55LS03DAUXXC 55\" 4K Smart TV (2024)",
+    "price": "979.00",
+    "pvp": "1499.00"
+  },
+  {
+    "sku": "62663",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/8/8/8806084749406_1.png",
+    "item_url": "https://www.electroprecio.com/oled-evo-lg-oled48c44la-48-4k-smart-tv",
+    "name": "OLED Evo LG OLED48C44LA 48\" 4K Smart TV ",
+    "price": "829.00",
+    "pvp": "1299.00"
+  },
+  {
+    "sku": "68269",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/t/v/tv-samsung-qe43q60dauxxh-43-qled.png.jpg",
+    "item_url": "https://www.electroprecio.com/qled-samsung-qe50q60d-50-4k-smart-tv",
+    "name": "QLED Samsung QE50Q60D 50\" 4K Smart TV ",
+    "price": "415.00",
+    "pvp": "437.00"
+  },
+  {
+    "sku": "62661",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/o/l/oled48c44la_2.png",
+    "item_url": "https://www.electroprecio.com/oled-evo-lg-oled65c44la-65-4k-smart-tv",
+    "name": "OLED Evo LG OLED65C44LA 65\" 4K Smart TV",
+    "price": "1295.00",
+    "pvp": "2699.00"
+  },
+  {
+    "sku": "67915",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/t/v/tv-samsung-tu55du8505-55-led-uhd-smart-tv.jpg.jpg",
+    "item_url": "https://www.electroprecio.com/samsung-tu55du8505-55-4k-smart-tv",
+    "name": "SAMSUNG TU55DU8505KXXC 55\" 4K SMART TV",
+    "price": "408.00",
+    "pvp": "699.00"
+  },
+  {
+    "sku": "62993",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/t/v/tv-strong-50-serie-d755-srt50ud7553-androidtv.jpg.jpg",
+    "item_url": "https://www.electroprecio.com/led-strong-srt50ud7553-50-4k-smart-tv",
+    "name": "LED Strong SRT50UD7553 50\" 4K Smart TV",
+    "price": "367.00",
+    "pvp": null
+  },
+  {
+    "sku": "62656",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/t/v/tv-smarttech-50ua20v3-50-led-ultrahd-4k-hdr10-smart-tv_50ua20v3_20230711_112107_1_.jpg.jpg",
+    "item_url": "https://www.electroprecio.com/led-smarttech-55ug10v3-55-4k-smart-tv",
+    "name": "LED Smarttech 55UG10V3 55\" 4K Smart TV",
+    "price": "430.00",
+    "pvp": "499.00"
+  },
+  {
+    "sku": "63566",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/t/v/tv_silver_40_1.png",
+    "item_url": "https://www.electroprecio.com/led-silver-412915-40-full-hd-smart-tv",
+    "name": "LED SILVER 412915 40\" Full HD Smart TV",
+    "price": "203.00",
+    "pvp": null
+  },
+  {
+    "sku": "62756",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/q/n/qned80t6b_3.png",
+    "item_url": "https://www.electroprecio.com/qned-lg-75qned80t6a-75-4k-smart-tv",
+    "name": "QNED LG 65QNED80T6A 65\" 4K Smart TV",
+    "price": "750.00",
+    "pvp": "999.00"
+  },
+  {
+    "sku": "63086",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/s/9/s90d_3.png",
+    "item_url": "https://www.electroprecio.com/oled-samsung-tq55s90daexxc-55-4k-smart-tv",
+    "name": "OLED Samsung TQ55S90DAEXXC 55\" 4K Smart TV",
+    "price": "999.00",
+    "pvp": "1999.00"
+  },
+  {
+    "sku": "53070",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/7/5/75nano766qa.jpg",
+    "item_url": "https://www.electroprecio.com/nanocell-lg-75nano766qa-75-4k-smart-tv",
+    "name": "Nanocell LG 75NANO766QA 75\" 4K Smart TV ",
+    "price": "839.00",
+    "pvp": null
+  },
+  {
+    "sku": "67593",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/a/r/art_fone-tdt_20rdt-700hd_1.jpg.jpg",
+    "item_url": "https://www.electroprecio.com/receptor-tdt-fonestar-rdt-700hd",
+    "name": "Receptor Tdt Fonestar Rdt-700Hd",
+    "price": "35.00",
+    "pvp": null
+  },
+  {
+    "sku": "63154",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/t/v/tv-hisense-smart-tv-40a4n-40-modo-juego-deportes-ia-dolby-dts-tdt.jpg_1.jpg",
+    "item_url": "https://www.electroprecio.com/led-hisense-32a4n-32-hd-smart-tv",
+    "name": "LED Hisense 32A4N 32\" HD Smart TV",
+    "price": "174.00",
+    "pvp": null
+  },
+  {
+    "sku": "62754",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/q/n/qned80t6b_1.png",
+    "item_url": "https://www.electroprecio.com/qned-lg-50qned80t6a-50-4k-smart-tv",
+    "name": "QNED LG 50QNED80T6A 50\" 4K Smart TV",
+    "price": "560.00",
+    "pvp": "749.00"
+  },
+  {
+    "sku": "63025",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/2/2/224bdf1adbe4400bb2973b005be46d38f3ca815f.jpg.jpg",
+    "item_url": "https://www.electroprecio.com/led-philips-43pus7009-43-4k-smart-tv",
+    "name": "LED Philips 43PUS7009 43\" 4K Smart TV",
+    "price": "309.00",
+    "pvp": null
+  },
+  {
+    "sku": "63230",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/6/8/6892457744bfe3bb17d13a7d21668230.jpg_1.jpg",
+    "item_url": "https://www.electroprecio.com/qled-mini-led-tcl-75c805-75-4k-smart-tv",
+    "name": "QLED Mini LED TCL 75C805 75\" 4K Smart TV",
+    "price": "1294.00",
+    "pvp": "1322.00"
+  },
+  {
+    "sku": "62852",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/t/v/tv-tcl-43-43c655-uhd-qled-googletv-game-master.jpg.jpg",
+    "item_url": "https://www.electroprecio.com/qled-tcl-43c655-43-4k-smart-tv",
+    "name": "QLED TCL 43C655 43\" 4K Smart TV",
+    "price": "319.00",
+    "pvp": null
+  },
+  {
+    "sku": "63151",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/E/7/E7N-PRO-85.png.jpg",
+    "item_url": "https://www.electroprecio.com/qled-hisense-75e7nq-75-4k-smart-tv",
+    "name": "QLED Hisense 75E7NQ 75\" 4K Smart TV",
+    "price": "760.00",
+    "pvp": null
+  },
+  {
+    "sku": "68458",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/t/e/television-led-32-cecotec-hd-google-tv-audio-google-voice-assitant-chromecast.jpg.jpg",
+    "item_url": "https://www.electroprecio.com/television-led-32-cecotec-hd-google-tv-audio-google-voice-assitant-chromecast",
+    "name": "TELEVISION LED 32\" CECOTEC HD GOOGLE TV AUDIO GOOGLE VOICE ASSITANT CHROMECAST",
+    "price": "169.00",
+    "pvp": null
+  },
+  {
+    "sku": "63011",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/2/7/273218.jpg.jpg",
+    "item_url": "https://www.electroprecio.com/led-samsung-tu43du7105kxxc-43-4k-smart-tv",
+    "name": "LED Samsung TU43DU7105KXXC 43\" 4K Smart TV",
+    "price": "299.00",
+    "pvp": null
+  },
+  {
+    "sku": "50139",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/a/r/art_lge-tv_2043up81006lr_1.jpg.jpg",
+    "item_url": "https://www.electroprecio.com/televisor-lg-uhd-tv-43up81006lr-43-ultra-hd-4k-smart-tv-wifi",
+    "name": "LED LG 43UP81006LR 43\" 4K Ultra HD Smart TV WiFi",
+    "price": "356.00",
+    "pvp": null
+  },
+  {
+    "sku": "63222",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/_/5/_5BK-65XR70_5D_20Sony_2C_20K65XR70_2C_20Bravia_207_2C_20XR_20Processor_2C_20QLED_20Mini_20LED_2C4K_20Ultra_20HD_2C_20Alto_20rango_20din_C3_A1mico_2C_20Smart_20TV_unique_2b1d33b_2.jpg",
+    "item_url": "https://www.electroprecio.com/qled-mini-led-sony-k-85xr70paep-85-4k-smart-tv",
+    "name": "QLED Mini LED Sony K-85XR70PAEP 85\" 4K Smart TV",
+    "price": "3004.00",
+    "pvp": null
+  },
+  {
+    "sku": "54112",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/x/r/xr75x95kaep.jpg",
+    "item_url": "https://www.electroprecio.com/led-sony-xr75x95kaep-75-4k-smart-tv-wifi",
+    "name": "LED Sony XR75X95KAEP 75\" 4K Smart TV ",
+    "price": "3739.00",
+    "pvp": "4499.00"
+  },
+  {
+    "sku": "68188",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/c/7/c7cf93415735aa953ea42826e0bc78862c549dd2.jpg.jpg",
+    "item_url": "https://www.electroprecio.com/qled-samsung-tq55q80dat-55-4k-smart-tv",
+    "name": "QLED Samsung TQ55Q80DATXXC 55\" 4K Smart TV",
+    "price": "599.00",
+    "pvp": null
+  },
+  {
+    "sku": "44577",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/t/e/televisor-24-led-de-61cm-12v.png",
+    "item_url": "https://www.electroprecio.com/led-grunkel-led24iv2-hd",
+    "name": "LED Grunkel LED24IV2 24\" HD",
+    "price": "114.00",
+    "pvp": "235.81"
+  },
+  {
+    "sku": "63213",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/t/v/tv-xiaomi-ela5485eu-qled-4k-ultra-65-google-tv.jpg.jpg",
+    "item_url": "https://www.electroprecio.com/qled-xiaomi-ela5485eu-65-4k-smart-tv",
+    "name": "QLED Xiaomi A PRO 65 2025 65\" L65MA-SEU 4K Smart TV",
+    "price": "493.00",
+    "pvp": null
+  },
+  {
+    "sku": "62657",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/t/v/tv-smarttech-50ua20v3-50-led-ultrahd-4k-hdr10-smart-tv_50ua20v3_20230711_112107_1_.jpg_1.jpg",
+    "item_url": "https://www.electroprecio.com/led-smarttech-50ua20v3-50-4k-smart-tv",
+    "name": "LED Smarttech 50UA20V3 50\" 4K Smart TV",
+    "price": "399.00",
+    "pvp": null
+  },
+  {
+    "sku": "63369",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/8/c/8c42dd7f82c21b4105469a16564d14e0.jpg.jpg",
+    "item_url": "https://www.electroprecio.com/antena-de-television-digital-philips-sdv5100-12",
+    "name": "Antena De Televisión Digital Philips Sdv5100/12",
+    "price": "20.00",
+    "pvp": null
+  },
+  {
+    "sku": "63565",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/1/5/1540-1_1_.jpg",
+    "item_url": "https://www.electroprecio.com/led-silver-412904-32-hd-smart-tv",
+    "name": "LED SILVER 412904 32\" HD SMART TV",
+    "price": "131.00",
+    "pvp": null
+  },
+  {
+    "sku": "63085",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/s/9/s90d_4.png",
+    "item_url": "https://www.electroprecio.com/oled-samsung-tq48s90daexxc-48-4k-smart-tv",
+    "name": "OLED Samsung TQ48S90DAEXXC 48\" 4K Smart TV",
+    "price": "879.00",
+    "pvp": null
+  },
+  {
+    "sku": "62665",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/o/l/oled55b46la.png",
+    "item_url": "https://www.electroprecio.com/oled-lg-oled65b46la-65-4k-smart-tv",
+    "name": "OLED LG OLED65B46LA 65\" 4K Smart TV",
+    "price": "1199.00",
+    "pvp": "1899.00"
+  },
+  {
+    "sku": "62755",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/q/n/qned80t6b_2.png",
+    "item_url": "https://www.electroprecio.com/qned-lg-55qned80t6a-55-4k-smart-tv",
+    "name": "QNED LG 55QNED80T6A 55\" 4K Smart TV",
+    "price": "525.00",
+    "pvp": "799.00"
+  },
+  {
+    "sku": "62909",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/t/v/tv-lg-32lq631c-32-sxga-smart-tv-negro.jpg.jpg",
+    "item_url": "https://www.electroprecio.com/led-lg-32lq631c-32-full-hd-smart-tv",
+    "name": "LED LG 32LQ631C 32\" Full HD Smart TV",
+    "price": "190.00",
+    "pvp": null
+  },
+  {
+    "sku": "63153",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/t/v/tv-hisense-65-65a6n-uhd-4k-vidaa-smart-tv.jpg",
+    "item_url": "https://www.electroprecio.com/led-hisense-65a6n-65-4k-smart-tv",
+    "name": "LED Hisense 65A6N 65\" 4K Smart TV",
+    "price": "475.00",
+    "pvp": null
+  },
+  {
+    "sku": "54977",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/a/r/art_sun-tdt_20dtb210hd2_1.jpg.jpg",
+    "item_url": "https://www.electroprecio.com/receptor-tdt-sunstech-dtb210hd2",
+    "name": "Receptor Tdt Sunstech Dtb210Hd2",
+    "price": "42.00",
+    "pvp": null
+  },
+  {
+    "sku": "63460",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/t/v/tv-xiaomi-ela5487eu-4k-ultra-75-google-tv.jpg",
+    "item_url": "https://www.electroprecio.com/tv-xiaomi-ela5487eu-4k-ultra-75-google-tv",
+    "name": "QLED XIAOMI A PRO 75 2025 75\" ELA5487EU 4K Smart TV",
+    "price": "695.00",
+    "pvp": null
+  },
+  {
+    "sku": "63024",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/c/c/ccbb3dee5b4fee00246ecbd4b23096c8083c2826.jpg_1.jpg",
+    "item_url": "https://www.electroprecio.com/led-philips-40pfs60094-40-full-hd-smart-tv",
+    "name": "LED Philips 40PFS60094 40\" Full HD Smart TV",
+    "price": "244.00",
+    "pvp": null
+  },
+  {
+    "sku": "63225",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/a/r/art_phil-tv_2065pus8919_1.jpg.jpg",
+    "item_url": "https://www.electroprecio.com/led-philips-65pus8919-65-4k-smart-tv",
+    "name": "LED Philips 65PUS8919 65\" 4K Smart TV",
+    "price": "719.00",
+    "pvp": null
+  },
+  {
+    "sku": "62753",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/q/n/qned80t6b.png",
+    "item_url": "https://www.electroprecio.com/qned-lg-43qned80t6a-43-4k-smart-tv",
+    "name": "QNED LG 43QNED80T6A 43\" 4K Smart TV",
+    "price": "379.00",
+    "pvp": "599.00"
+  },
+  {
+    "sku": "63131",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/a/r/art_phil-tv_2055pus8919_1.jpg.jpg",
+    "item_url": "https://www.electroprecio.com/led-philips-55pus8919-55-4k-smart-tv",
+    "name": "LED Philips 55PUS8919 55\" 4K Smart TV",
+    "price": "595.00",
+    "pvp": null
+  },
+  {
+    "sku": "63406",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/s/o/sony_k-65xr80paep_2.png",
+    "item_url": "https://www.electroprecio.com/oled-sony-k-55xr80paep-55-4k-smart-tv",
+    "name": "OLED Sony K-55XR80PAEP 55\" 4K Smart TV",
+    "price": "1806.00",
+    "pvp": "1899.00"
+  },
+  {
+    "sku": "63010",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/a/c/ac7c6e303ca79dfd1f7541508120caeff3a02d07.jpg_2.jpg",
+    "item_url": "https://www.electroprecio.com/led-samsung-tu65du7105kxxc-65-4k-smart-tv",
+    "name": "LED Samsung TU65DU7105KXXC 65\" 4K Smart TV ",
+    "price": "530.00",
+    "pvp": null
+  },
+  {
+    "sku": "46820",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/9/2/92502477_9670695440.jpg.jpg",
+    "item_url": "https://www.electroprecio.com/led-grundig-50gfu7800b-50-4k-smart-tv",
+    "name": "Led Grundig 50Gfu7800B 50\" 4K Smart TV",
+    "price": "435.00",
+    "pvp": null
+  },
+  {
+    "sku": "63217",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/2/9/29986.png",
+    "item_url": "https://www.electroprecio.com/dled-tcl-50p755-50-4k-smart-tv",
+    "name": "DLED TCL 50P755 50\" 4K Smart TV",
+    "price": "404.00",
+    "pvp": null
+  },
+  {
+    "sku": "63607",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/3/6/360_1_lis.png",
+    "item_url": "https://www.electroprecio.com/qled-samsung-tq55q60dauxxc-55-4k-smart-tv-2024",
+    "name": "QLED SAMSUNG TQ55Q60DAUXXC 55\" 4K SMART TV (2024)",
+    "price": "509.00",
+    "pvp": "1099.00"
+  },
+  {
+    "sku": "63404",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/s/o/sony_k-65xr80paep.png",
+    "item_url": "https://www.electroprecio.com/oled-sony-k-65xr80paep-65-4k-smart-tv",
+    "name": "OLED Sony K-65XR80PAEP 65\" 4K Smart TV",
+    "price": "2279.00",
+    "pvp": "2299.00"
+  },
+  {
+    "sku": "63212",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/0/d/0d7243cd6afcf8f71876f8e0d965aad3.jpg.jpg",
+    "item_url": "https://www.electroprecio.com/led-tcl-32s5400a-32-hd-smart-tv",
+    "name": "LED TCL 32S5400A 32\" HD Smart TV",
+    "price": "182.00",
+    "pvp": null
+  },
+  {
+    "sku": "62743",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/q/n/qned91t6a_2.png",
+    "item_url": "https://www.electroprecio.com/qned-mini-led-lg-86qned91t6a-86-4k-smart-tv",
+    "name": "QNED Mini LED LG 86QNED91T6A 86 \" 4K Smart TV",
+    "price": "1899.00",
+    "pvp": "2299.00"
+  },
+  {
+    "sku": "62944",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/c/c/ccbb3dee5b4fee00246ecbd4b23096c8083c2826.jpg.jpg",
+    "item_url": "https://www.electroprecio.com/led-philips-32phs6009-32-hd-smart-tv",
+    "name": "LED Philips 32PHS6009 32\" HD Smart TV",
+    "price": "175.00",
+    "pvp": null
+  },
+  {
+    "sku": "57993",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/5/5/55ur78006lk.jpg",
+    "item_url": "https://www.electroprecio.com/led-lg-55ur78006lk-55-4k-smart-tv",
+    "name": "LED LG 55UR78006LK 55\" 4K Smart TV",
+    "price": "462.00",
+    "pvp": "579.00"
+  },
+  {
+    "sku": "69183",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/m/e/medium01_1_.jpg",
+    "item_url": "https://www.electroprecio.com/led-lg-75ut81006-75-4k-smart-tv",
+    "name": "LED LG 75UT81006LA 75\" 4K Smart TV",
+    "price": "729.00",
+    "pvp": "1099.00"
+  },
+  {
+    "sku": "54117",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/x/r/xr48a90kaep.jpg",
+    "item_url": "https://www.electroprecio.com/oled-sony-xr48a90kaep-48-4k-smart-tv",
+    "name": "OLED Sony XR48A90KAEP 48\" 4K Smart TV",
+    "price": "1663.00",
+    "pvp": "1999.00"
+  },
+  {
+    "sku": "63408",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/1/5/1540-1_1.png",
+    "item_url": "https://www.electroprecio.com/oled-sony-k-75xr90paep-65-4k-smart-tv",
+    "name": "OLED Sony K-75XR90PAEP 75\" 4K Smart TV",
+    "price": "3260.00",
+    "pvp": "3299.00"
+  },
+  {
+    "sku": "62738",
+    "image_url": "https://www.electroprecio.com/media/catalog/product/cache/1/small_image/190x140/a4e40ebdc3e371adff845072e1c73f37/o/l/oled65g45lw_2.png",
+    "item_url": "https://www.electroprecio.com/oled-evo-lg-oled83g45lw-83-4k-smart-tv",
+    "name": "OLED Evo LG OLED83G45LW 83\" 4K Smart TV",
+    "price": "4099.00",
+    "pvp": "5799.00"
+  }
+]

@@ -23,14 +23,17 @@ def scrap_glisshop(keyword,paginas,archivo_json):
 
     driver.find_element(By.ID, "onetrust-accept-btn-handler").click()
 
-    driver.get(f'https://www.glisshop.es/glisshop/resultado-de-la-busqueda-productos.html?searchText={keyword}')
-    sleep(4)
+    
     paginas_infinitas = (paginas == 0)
     i = 1
+    driver.get(f'https://www.glisshop.es/glisshop/resultado-de-la-busqueda-productos.html?searchText={keyword}')
+
     while paginas_infinitas == True or i<=paginas:
-        sleep(2)
+        sleep(4)
+        
+        
         elementos = driver.find_elements(By.CLASS_NAME, 'df-card__main')
-        num_elementos_pagina = len(elementos)
+        
 
         for elemento in elementos:
             item_url = elemento.get_property('href')
@@ -64,13 +67,14 @@ def scrap_glisshop(keyword,paginas,archivo_json):
                     })
         i = i+1
         
-        
-        boton_siguiente = driver.find_element(By.XPATH, f'//a[@data-page="{i}"]')
-        driver.execute_script("arguments[0].click();", boton_siguiente)
-
+        try:
+            boton_siguiente = driver.find_element(By.XPATH, f'//a[@data-page="{i}"]')
+            driver.execute_script("arguments[0].click();", boton_siguiente)
+        except Exception as e:
+            break
     # Guardar resultados
     with open(archivo_json + ".json", "w", encoding="utf-8") as f:
         json.dump(diccionario, f, ensure_ascii=False, indent=2)
 
-    print("Numero de productos encontrados:",len(diccionario))
+    print("Numero de productos encontrados en glisshop:",len(diccionario))
     driver.quit()
