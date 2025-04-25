@@ -15,7 +15,7 @@ def scrap_glisshop(keyword,paginas,archivo_json):
     opts = Options()
     opts.add_argument("user-agent=Mozilla/5.0 (...) Safari/537.36")
     opts.add_argument("--window-position=1100,0")
-    #opts.add_argument("--headless")
+    opts.add_argument("--headless")
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=opts)
 
     driver.get("https://www.glisshop.es/")
@@ -64,8 +64,7 @@ def scrap_glisshop(keyword,paginas,archivo_json):
                     })
         i = i+1
         
-        #boton_siguiente = driver.find_element(By.XPATH,f'//a[@data-page="{pagina}"]')
-        #boton_siguiente.click()
+        
         boton_siguiente = driver.find_element(By.XPATH, f'//a[@data-page="{i}"]')
         driver.execute_script("arguments[0].click();", boton_siguiente)
 
