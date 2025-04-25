@@ -37,7 +37,7 @@ opts = Options()
 opts.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.86 Safari/537.36")
 opts.add_argument("--window-position=1100,0")
 opts.add_experimental_option("excludeSwitches", ["enable-automation"])
-#opts.add_experimental_option('useAutomationExtension', False)
+opts.add_experimental_option('useAutomationExtension', False)
 
 # Inicializa el driver
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=opts)

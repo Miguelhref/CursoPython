@@ -13,7 +13,7 @@ def scrap_glisshop(keyword,paginas,archivo_json):
     diccionario = []
 
     opts = Options()
-    opts.add_argument("user-agent=Mozilla/5.0 (...) Safari/537.36")
+    opts.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.86 Safari/537.36")
     opts.add_argument("--window-position=1100,0")
     opts.add_argument("--headless")
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=opts)
