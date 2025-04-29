@@ -6,9 +6,11 @@ from electroprecio import scrap_electroprecio
 from deporte_outlet import scrap_deporte_outlet
 from coolmod import scrap_coolmod
 from latiendaencasa import scrap_latiendaencasa
+from alcampo import scrap_alcampo
+from aromas import scrap_aromas
 import threading
 
-keyword = 'tv'
+keyword = 'loewe'
 
 #carrefour.search(keyword)
 #scrap_lefties(archivo_json="sudaderas_lefties",keyword=keyword)
@@ -28,6 +30,12 @@ def run_coolmod():
 
 def run_latiendaencasa():
     scrap_latiendaencasa(keyword, 3, f"{keyword}_latiendaencasa")
+
+def run_alcampo():
+    scrap_alcampo(keyword, 3, f"{keyword}_alcampo")
+
+def run_aromas():
+    scrap_aromas(keyword, 3, f"{keyword}_aromas")
 # Crear los hilos
 threads = [
    # threading.Thread(target=run_glisshop), revisar
@@ -35,6 +43,9 @@ threads = [
    # threading.Thread(target=run_deporte_outlet),
    # threading.Thread(target=run_coolmod()),
    # threading.Thread(target=run_latiendaencasa()), acabar, fallaba la conexion
+   # threading.Thread(target=run_alcampo()), acabar, casi rehacer de 0
+    threading.Thread(target=run_aromas())
+   #  
 ]
 
 #iniciar los hilos
