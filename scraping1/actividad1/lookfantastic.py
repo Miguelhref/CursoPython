@@ -47,20 +47,24 @@ def scrap_lookfantastic(keyword, pages, json_file):
             price_p = element.css_first('.override-price-style')
             pvp = None
             try:
-                pvp_raw = price_p.css_first('.mt-6').text()
+                pvp_raw = price_p.css_first('.mt-6').text().replace(".", "").replace(",", ".").replace("€","")
                 pvp = pvp_raw if pvp_raw else None
-                price= price_p.css_first('.text-gray-900').text()
+                price= price_p.css_first('.text-gray-900').text().replace(".", "").replace(",", ".").replace("€","")
             except Exception as e:
-                price = price_p.text()
+                price = price_p.text().replace(".", "").replace(",", ".").replace("€","")
             
-            
-                
-            '''
-            Guardar los siguientes datos para cada producto:
-● sku → ID del producto
-● image_url → URL de la imagen del producto
-● item_url → URL de la página del producto
-● name → Nombre del producto
-● price → Precio actual del producto (tipo float)
-● pvp → Precio anterior (si existe; si no, None, tipo float)
-'''
+            results.append({
+                    "sku": sku,
+                    "image_url": image_url,
+                    "item_url": item_url,
+                    "name": name,
+                    "price": float(price),
+                    "pvp": float(pvp) if pvp else None
+                    })
+        i+=1        
+    # Guardar resultados
+    with open(json_file + ".json", "w", encoding="utf-8") as f:
+    
+        json.dump(results, f, ensure_ascii=False, indent=2)
+    print("Número de productos encontrados en Lokkfantastic:", len(results))  
+    driver.quit()  
