@@ -11,6 +11,7 @@ from aromas import scrap_aromas
 from electrodepot import scrap_electrodepot
 from alltricks import scrap_alltricks
 from lookfantastic import scrap_lookfantastic
+from atida import scrap_atida
 ##### FALTA DOSFARMA, TIENE CAPTCHA
 import threading
 
@@ -49,6 +50,9 @@ def run_alltricks():
 
 def run_lookfantastic():
     scrap_lookfantastic(keyword, 3, f"{keyword}_lookfantastic")
+
+def run_atida():
+    scrap_atida(keyword, 3, f"{keyword}_run_atida")
 # Crear los hilos
 threads = [
    # threading.Thread(target=run_glisshop), revisar
@@ -60,7 +64,8 @@ threads = [
    # threading.Thread(target=run_aromas())
    # threading.Thread(target=run_electrodepot())
    # threading.Thread(target=run_alltricks())
-     threading.Thread(target=run_lookfantastic())
+   # threading.Thread(target=run_lookfantastic())
+     threading.Thread(target=run_atida())
    #  
 ]
 
