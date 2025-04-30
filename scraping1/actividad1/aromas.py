@@ -77,12 +77,12 @@ def scrap_aromas(keyword, pages, json_file):
              price = pvp_raw.attributes.get('content')
         if pvp == price : pvp = None
         results.append({
-                        "sku": sku,
-                        "image_url": image_url,
-                        "item_url": item_url,
-                        "name": name,
-                        "price": price,
-                        "pvp": pvp
+                    "sku": sku,
+                    "image_url": image_url,
+                    "item_url": item_url,
+                    "name": name,
+                    "price": float(price),
+                    "pvp": float(pvp) if pvp else None
                     })
 
     with open(json_file + ".json", "w", encoding="utf-8") as f:

@@ -16,7 +16,7 @@ def scrap_electrodepot(keyword, pages, json_file):
     opts.add_argument("--window-position=1100,0")
     opts.add_experimental_option("excludeSwitches", ["enable-automation"])
     opts.add_experimental_option('useAutomationExtension', False)
-    #opts.add_argument("--headless")  
+    opts.add_argument("--headless")  
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=opts)
 
     driver.get('https://www.electrodepot.es/')
@@ -55,17 +55,18 @@ def scrap_electrodepot(keyword, pages, json_file):
                 price =   price_raw.rstrip('.')
               
                 results.append({
-                                "sku": sku,
-                                "image_url": image_url,
-                                "item_url": item_url,
-                                "name": name,
-                                "price": price,
-                                "pvp": pvp
-                        })
+                    "sku": sku,
+                    "image_url": image_url,
+                    "item_url": item_url,
+                    "name": name,
+                    "price": float(price),
+                    "pvp": float(pvp) if pvp else None
+                    })
 
     with open(json_file + ".json", "w", encoding="utf-8") as f:
     
         json.dump(results, f, ensure_ascii=False, indent=2)
 
-    print("Número de productos encontrados en electrodepot:", len(results))            
+    print("Número de productos encontrados en electrodepot:", len(results))  
+    driver.quit()          
                 

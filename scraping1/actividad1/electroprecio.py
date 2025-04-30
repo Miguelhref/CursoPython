@@ -54,8 +54,8 @@ def scrap_electroprecio(keyword,paginas,archivo_json):
                         "image_url": image_url,
                         "item_url": item_url,
                         "name": name,
-                        "price": price,
-                        "pvp": pvp
+                        "price": float(price),
+                        "pvp": float(pvp) if pvp else None
                     })
             
         i = i+1

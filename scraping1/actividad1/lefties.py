@@ -60,14 +60,14 @@ def scrap_lefties(keyword,archivo_json):
             name = elemento.find_element(By.CLASS_NAME,'name').text
             price = elemento.find_element(By.CLASS_NAME,'price').text.replace(".","").replace(",",".").replace("€","").strip()
             pvp= None
-            diccionario.append(
-                        {"sku":sku,
-                        "image_url":image_url,
-                        "item_url":item_url,
-                        "name":name,
-                        "price":price,
-                        "pvp":pvp
-                        })
+            diccionario.append({
+                    "sku": sku,
+                    "image_url": image_url,
+                    "item_url": item_url,
+                    "name": name,
+                    "price": float(price),
+                    "pvp": float(pvp) if pvp else None
+                    })
             
     except Exception as e:
         if intentos <4:

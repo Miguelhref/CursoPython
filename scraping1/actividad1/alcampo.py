@@ -65,12 +65,12 @@ def scrap_alcampo(keyword, pages, json_file):
                         price = ''
 
                     results.append({
-                        "sku": sku,
-                        "image_url": image_url,
-                        "item_url": item_url,
-                        "name": name,
-                        "price": price,
-                        "pvp": pvp
+                    "sku": sku,
+                    "image_url": image_url,
+                    "item_url": item_url,
+                    "name": name,
+                    "price": float(price),
+                    "pvp": float(pvp) if pvp else None
                     })
                 except Exception as e:
                     print("❌ Error en producto:", e)

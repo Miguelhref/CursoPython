@@ -66,8 +66,8 @@ def scrap_coolmod(keyword, pages, json_file):
                         "image_url": image_url,
                         "item_url": item_url,
                         "name": name,
-                        "price": price,
-                        "pvp": pvp
+                        "price": float(price),
+                        "pvp": float(pvp) if pvp else None
                     })
                 except Exception as e:
                     continue
