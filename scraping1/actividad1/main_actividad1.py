@@ -10,10 +10,11 @@ from alcampo import scrap_alcampo
 from aromas import scrap_aromas
 from electrodepot import scrap_electrodepot
 from alltricks import scrap_alltricks
+from lookfantastic import scrap_lookfantastic
 ##### FALTA DOSFARMA, TIENE CAPTCHA
 import threading
 
-keyword = 'casco'
+keyword = 'solar'
 
 #carrefour.search(keyword)
 #scrap_lefties(archivo_json="sudaderas_lefties",keyword=keyword)
@@ -45,6 +46,9 @@ def run_electrodepot():
 
 def run_alltricks():
     scrap_alltricks(keyword, 3, f"{keyword}_alltricks")
+
+def run_lookfantastic():
+    scrap_lookfantastic(keyword, 3, f"{keyword}_lookfantastic")
 # Crear los hilos
 threads = [
    # threading.Thread(target=run_glisshop), revisar
@@ -54,8 +58,9 @@ threads = [
    # threading.Thread(target=run_latiendaencasa()), acabar, fallaba la conexion
    # threading.Thread(target=run_alcampo()), acabar, casi rehacer de 0
    # threading.Thread(target=run_aromas())
-   #  threading.Thread(target=run_electrodepot())
-     threading.Thread(target=run_alltricks())
+   # threading.Thread(target=run_electrodepot())
+   # threading.Thread(target=run_alltricks())
+     threading.Thread(target=run_lookfantastic())
    #  
 ]
 
