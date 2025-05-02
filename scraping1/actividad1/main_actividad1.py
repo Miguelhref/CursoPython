@@ -57,7 +57,7 @@ def run_lookfantastic():
     scrap_lookfantastic(keyword, 3, f"{keyword}_lookfantastic")
 
 def run_atida():
-    scrap_atida(keyword, 3, f"{keyword}_run_atida")
+    scrap_atida(keyword, 3, f"{keyword}_atida")
 
 def run_decathlon():
     scrap_decathlon(keyword, 3, f"{keyword}_decathlon")
