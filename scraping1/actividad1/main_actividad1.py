@@ -13,12 +13,14 @@ from alltricks import scrap_alltricks
 from lookfantastic import scrap_lookfantastic
 from atida import scrap_atida
 from decathlon import scrap_decathlon
+from alternate import scrap_alternate
+
 ##### FALTA DOSFARMA, TIENE CAPTCHA
 ##### latiendaencasa()), acabar, fallaba la conexion
 ##### alcampo()), acabar, casi rehacer de 0
 import threading
 
-keyword = 'raqueta'
+keyword = 'monitor'
 
 #carrefour.search(keyword)
 #scrap_lefties(archivo_json="sudaderas_lefties",keyword=keyword)
@@ -58,7 +60,12 @@ def run_atida():
     scrap_atida(keyword, 3, f"{keyword}_run_atida")
 
 def run_decathlon():
-    scrap_decathlon(keyword, 3, f"{keyword}_run_decathlon")
+    scrap_decathlon(keyword, 3, f"{keyword}_decathlon")
+
+def run_alternate():
+    scrap_alternate(keyword, 3, f"{keyword}_alternate")
+
+
 
 # Crear los hilos
 threads = [
@@ -73,7 +80,9 @@ threads = [
    # threading.Thread(target=run_alltricks())
    # threading.Thread(target=run_lookfantastic())
    #  threading.Thread(target=run_atida())
-     threading.Thread(target=run_decathlon())
+   #  threading.Thread(target=run_decathlon())
+     threading.Thread(target=run_alternate())
+  
    #  
 ]
 
