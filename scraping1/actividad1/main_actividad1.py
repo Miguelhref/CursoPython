@@ -14,13 +14,14 @@ from lookfantastic import scrap_lookfantastic
 from atida import scrap_atida
 from decathlon import scrap_decathlon
 from alternate import scrap_alternate
+from douglas import scrap_douglas
 
 ##### FALTA DOSFARMA, TIENE CAPTCHA
 ##### latiendaencasa()), acabar, fallaba la conexion
 ##### alcampo()), acabar, casi rehacer de 0
 import threading
 
-keyword = 'monitor'
+keyword = 'perfume'
 
 #carrefour.search(keyword)
 #scrap_lefties(archivo_json="sudaderas_lefties",keyword=keyword)
@@ -65,6 +66,9 @@ def run_decathlon():
 def run_alternate():
     scrap_alternate(keyword, 3, f"{keyword}_alternate")
 
+def run_douglas():
+    scrap_douglas(keyword, 3, f"{keyword}_douglas")
+
 
 
 # Crear los hilos
@@ -81,7 +85,8 @@ threads = [
    # threading.Thread(target=run_lookfantastic())
    #  threading.Thread(target=run_atida())
    #  threading.Thread(target=run_decathlon())
-     threading.Thread(target=run_alternate())
+   #  threading.Thread(target=run_alternate())
+     threading.Thread(target=run_douglas())
   
    #  
 ]

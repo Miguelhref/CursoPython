@@ -11,7 +11,7 @@ from selectolax.parser import HTMLParser
 
 def scrap_alternate(keyword, pages, json_file):
     results = []
-    seen_skus = set()  # <-- Aquí
+    seen_skus = set()  
     # Opciones de Chrome
     opts = Options()
     opts.add_argument("user-agent=Mozilla/5.0")
@@ -43,6 +43,7 @@ def scrap_alternate(keyword, pages, json_file):
         sleep(2)
         root_element = tree.css_first('.grid-container')
         elements = root_element.css('a')
+        
         sleep(1)
         for element in elements:
             item_url = element.attrs.get('href')
