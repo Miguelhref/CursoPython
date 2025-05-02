@@ -17,7 +17,7 @@ def scrap_decathlon(keyword, pages, json_file):
     opts.add_argument("--window-position=1100,0")
     opts.add_experimental_option("excludeSwitches", ["enable-automation"])
     opts.add_experimental_option("useAutomationExtension", False)
-    #opts.add_argument("--headless")  
+    opts.add_argument("--headless")  
 
     # Inicializar driver
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=opts)
@@ -46,7 +46,7 @@ def scrap_decathlon(keyword, pages, json_file):
             
             item = element.css_first('a.vtmn-absolute')
             item_url ='https://www.decathlon.es'+ item.attrs.get('href')
-            sku = re.search(r'R-p-([a-zA-Z0-9]+)', item_url).group(1)
+            sku = re.search(r"/R-p-([^?\/]+)", item_url).group(1)
             image_url = item.css_first('img').attributes.get('src')
             
             name = element.css_first('a.vtmn-block').text().strip()

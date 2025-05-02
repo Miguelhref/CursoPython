@@ -14,6 +14,8 @@ from lookfantastic import scrap_lookfantastic
 from atida import scrap_atida
 from decathlon import scrap_decathlon
 ##### FALTA DOSFARMA, TIENE CAPTCHA
+##### latiendaencasa()), acabar, fallaba la conexion
+##### alcampo()), acabar, casi rehacer de 0
 import threading
 
 keyword = 'raqueta'
