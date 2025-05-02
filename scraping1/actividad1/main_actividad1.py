@@ -15,13 +15,17 @@ from atida import scrap_atida
 from decathlon import scrap_decathlon
 from alternate import scrap_alternate
 from douglas import scrap_douglas
+from elcorteingles import scrap_elcorteingles
+from jdsports import scrap_jdsports
 
 ##### FALTA DOSFARMA, TIENE CAPTCHA
 ##### latiendaencasa()), acabar, fallaba la conexion
 ##### alcampo()), acabar, casi rehacer de 0
+##### elcorteingles, falta acabar, no me carga bien la url despues de buscar
+##JDSPorts no carga a tiempo las imagenes
 import threading
 
-keyword = 'perfume'
+keyword = 'nike'
 
 #carrefour.search(keyword)
 #scrap_lefties(archivo_json="sudaderas_lefties",keyword=keyword)
@@ -69,6 +73,12 @@ def run_alternate():
 def run_douglas():
     scrap_douglas(keyword, 3, f"{keyword}_douglas")
 
+def run_elcorteingles():
+    scrap_elcorteingles(keyword, 3, f"{keyword}_elcorteingles")
+
+def run_jdsports():
+    scrap_jdsports(keyword, 3, f"{keyword}_jdsports")
+
 
 
 # Crear los hilos
@@ -86,7 +96,9 @@ threads = [
    #  threading.Thread(target=run_atida())
    #  threading.Thread(target=run_decathlon())
    #  threading.Thread(target=run_alternate())
-     threading.Thread(target=run_douglas())
+   # threading.Thread(target=run_douglas())
+     #threading.Thread(target=run_elcorteingles())
+     threading.Thread(target=run_jdsports())
   
    #  
 ]
