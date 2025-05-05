@@ -8,7 +8,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 import re
 def scrap_coolmod(keyword, pages, json_file):
     results = []
-    seen_skus = set()  # <--- nuevo
+    seen_skus = set()  
     opts = Options()
     opts.add_argument("user-agent=...")
     opts.add_argument("--window-position=1100,0")

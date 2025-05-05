@@ -11,7 +11,7 @@ from selectolax.parser import HTMLParser
 
 def scrap_alltricks(keyword, pages, json_file):
     results = []
-    skus_seen = set()  # ⚠️ Para evitar duplicados
+    skus_seen = set()  #  Para evitar duplicados
 
     # Opciones de Chrome
     opts = Options()

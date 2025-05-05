@@ -20,7 +20,7 @@ def scrap_jdsports(keyword, pages, json_file):
     opts.add_argument("--window-position=1100,0")
     opts.add_experimental_option("excludeSwitches", ["enable-automation"])
     opts.add_experimental_option("useAutomationExtension", False)
-    # opts.add_argument("--headless")
+    opts.add_argument("--headless")
 
     # Inicializar driver
     driver = webdriver.Chrome(

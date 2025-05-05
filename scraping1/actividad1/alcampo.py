@@ -16,8 +16,7 @@ def scrap_alcampo(keyword, pages, json_file):
     opts.add_argument("--window-position=1100,0")
     opts.add_experimental_option("excludeSwitches", ["enable-automation"])
     opts.add_experimental_option('useAutomationExtension', False)
-    # opts.add_argument("--headless")  # opcional
-
+    # opts.add_argument("--headless") 
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=opts)
 
     try:
