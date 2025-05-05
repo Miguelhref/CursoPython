@@ -17,15 +17,19 @@ from alternate import scrap_alternate
 from douglas import scrap_douglas
 from elcorteingles import scrap_elcorteingles
 from jdsports import scrap_jdsports
+from jack_jones import scrap_jack_jones
+#from fnac import scrap_fnac
+import threading
 
 ##### FALTA DOSFARMA, TIENE CAPTCHA
 ##### latiendaencasa()), acabar, fallaba la conexion
 ##### alcampo()), acabar, casi rehacer de 0
 ##### elcorteingles, falta acabar, no me carga bien la url despues de buscar
 ##JDSPorts no carga a tiempo las imagenes
-import threading
+####Falta FNAC, Me bloquea todo el rato
 
-keyword = 'nike'
+
+keyword = 'pantalon'
 
 #carrefour.search(keyword)
 #scrap_lefties(archivo_json="sudaderas_lefties",keyword=keyword)
@@ -79,6 +83,12 @@ def run_elcorteingles():
 def run_jdsports():
     scrap_jdsports(keyword, 3, f"{keyword}_jdsports")
 
+#def run_fnac():
+#    scrap_fnac(keyword, 3, f"{keyword}_fnac")
+
+def run_jack_jones():
+    scrap_jack_jones(keyword, 3, f"{keyword}_jack_jones")
+
 
 
 # Crear los hilos
@@ -98,7 +108,9 @@ threads = [
    #  threading.Thread(target=run_alternate())
    # threading.Thread(target=run_douglas())
      #threading.Thread(target=run_elcorteingles())
-     threading.Thread(target=run_jdsports())
+    # threading.Thread(target=run_jdsports())
+    #threading.Thread(target=run_fnac())
+    threading.Thread(target=run_jack_jones())
   
    #  
 ]
