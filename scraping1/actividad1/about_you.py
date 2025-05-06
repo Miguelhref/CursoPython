@@ -67,7 +67,7 @@ def scrap_aboutyou(keyword, pages, json_file):
                 try:
                     scroll_container = driver.find_element(By.CSS_SELECTOR, '[data-testid="sectionEnd"]')
                     driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'end'});", scroll_container)
-                    sleep(2)
+                    sleep(2)    
 
                     current_height = driver.execute_script("return arguments[0].scrollHeight", scroll_container)
 
@@ -142,5 +142,5 @@ def scrap_aboutyou(keyword, pages, json_file):
     with open(json_file + ".json", "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
-    print("Número de productos únicos encontrados:", len(results))
+    print("Número de productos únicos encontrados en AboutYou:", len(results))
     driver.quit()

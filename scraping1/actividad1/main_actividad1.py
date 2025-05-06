@@ -19,6 +19,7 @@ from elcorteingles import scrap_elcorteingles
 from jdsports import scrap_jdsports
 from jack_jones import scrap_jack_jones
 from about_you import scrap_aboutyou
+from euronics import scrap_euronics
 #from fnac import scrap_fnac
 import threading
 
@@ -88,10 +89,13 @@ def run_jdsports():
 #    scrap_fnac(keyword, 3, f"{keyword}_fnac")
 
 def run_jack_jones():
-    scrap_jack_jones(keyword, 3, f"{keyword}_jack_jones")
+    scrap_jack_jones(keyword, 0, f"{keyword}_jack_jones")
 
 def run_about_you():
     scrap_aboutyou(keyword, 3, f"{keyword}_aboutyou")
+
+def run_euronics():
+    scrap_euronics(keyword, 3, f"{keyword}_euronics")
 
 
 
@@ -114,8 +118,9 @@ threads = [
      #threading.Thread(target=run_elcorteingles())
     # threading.Thread(target=run_jdsports())
     #threading.Thread(target=run_fnac())
-    #threading.Thread(target=run_jack_jones())
-    threading.Thread(target=run_about_you())
+    threading.Thread(target=run_jack_jones())
+    #threading.Thread(target=run_about_you())
+    #threading.Thread(target=run_euronics())
   
    #  
 ]
