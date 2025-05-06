@@ -18,6 +18,7 @@ from douglas import scrap_douglas
 from elcorteingles import scrap_elcorteingles
 from jdsports import scrap_jdsports
 from jack_jones import scrap_jack_jones
+from about_you import scrap_aboutyou
 #from fnac import scrap_fnac
 import threading
 
@@ -89,6 +90,9 @@ def run_jdsports():
 def run_jack_jones():
     scrap_jack_jones(keyword, 3, f"{keyword}_jack_jones")
 
+def run_about_you():
+    scrap_aboutyou(keyword, 3, f"{keyword}_aboutyou")
+
 
 
 # Crear los hilos
@@ -110,7 +114,8 @@ threads = [
      #threading.Thread(target=run_elcorteingles())
     # threading.Thread(target=run_jdsports())
     #threading.Thread(target=run_fnac())
-    threading.Thread(target=run_jack_jones())
+    #threading.Thread(target=run_jack_jones())
+    threading.Thread(target=run_about_you())
   
    #  
 ]
