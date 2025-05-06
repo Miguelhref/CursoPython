@@ -20,6 +20,7 @@ from jdsports import scrap_jdsports
 from jack_jones import scrap_jack_jones
 from about_you import scrap_aboutyou
 from euronics import scrap_euronics
+from hp import scrap_hp
 #from fnac import scrap_fnac
 import threading
 
@@ -31,7 +32,7 @@ import threading
 ####Falta FNAC, Me bloquea todo el rato
 
 
-keyword = 'pantalon'
+keyword = 'impresora'
 
 #carrefour.search(keyword)
 #scrap_lefties(archivo_json="sudaderas_lefties",keyword=keyword)
@@ -97,6 +98,9 @@ def run_about_you():
 def run_euronics():
     scrap_euronics(keyword, 3, f"{keyword}_euronics")
 
+def run_hp():
+    scrap_hp(keyword, 3, f"{keyword}_hp")
+
 
 
 # Crear los hilos
@@ -118,9 +122,10 @@ threads = [
      #threading.Thread(target=run_elcorteingles())
     # threading.Thread(target=run_jdsports())
     #threading.Thread(target=run_fnac())
-    threading.Thread(target=run_jack_jones())
+    #threading.Thread(target=run_jack_jones())
     #threading.Thread(target=run_about_you())
     #threading.Thread(target=run_euronics())
+    threading.Thread(target=run_hp())
   
    #  
 ]
