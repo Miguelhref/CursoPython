@@ -144,6 +144,14 @@
     "pvp": 299.0
   },
   {
+    "sku": "40Q46B",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/40Q46B-629_1_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=40Q46B&opt=629&sel=PRN",
+    "name": "Impresora multifunción HP OfficeJet Pro 8134e con 6 meses de Instant Ink",
+    "price": 169.9,
+    "pvp": null
+  },
+  {
     "sku": "28B75A",
     "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/28B75A-BHC_1_390x286.jpg",
     "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=28B75A&opt=BHC&sel=PRN",
@@ -232,6 +240,22 @@
     "pvp": 379.9
   },
   {
+    "sku": "8J9K4F",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c09071839_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=8J9K4F&opt=B19&sel=PRN",
+    "name": "Impresora multifunción HP LaserJet M234d",
+    "price": 199.9,
+    "pvp": null
+  },
+  {
+    "sku": "CE712A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c01820913_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=CE712A&opt=B19&sel=PRN",
+    "name": "Impresora HP Color LaserJet Professional CP5225dn",
+    "price": 1456.01,
+    "pvp": 1761.76
+  },
+  {
     "sku": "2Z622F",
     "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c08611310_390x286.jpg",
     "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=2Z622F&opt=B19&sel=PRN",
@@ -254,6 +278,14 @@
     "name": "Impresora HP Color LaserJet Pro 4202dn",
     "price": 355.9,
     "pvp": 664.29
+  },
+  {
+    "sku": "8J9L0F",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c09046390_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=8J9L0F&opt=B19&sel=PRN",
+    "name": "Impresora HP LaserJet M209d",
+    "price": 139.9,
+    "pvp": null
   },
   {
     "sku": "499Q7F",
@@ -296,6 +328,14 @@
     "pvp": 277.11
   },
   {
+    "sku": "5HB07D",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/5HB07D-B19_6_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=5HB07D&opt=B19&sel=PRN",
+    "name": "Impresora plotter de gran formato HP DesignJet T230 de 24 pulgadas / A1 edición 2025",
+    "price": 846.0,
+    "pvp": null
+  },
+  {
     "sku": "5HB06D",
     "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/5HB06D-B19_6_390x286.jpg",
     "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=5HB06D&opt=B19&sel=PRN",
@@ -304,12 +344,116 @@
     "pvp": 967.0
   },
   {
+    "sku": "5HB08D",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/5HB08D-B19_11_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=5HB08D&opt=B19&sel=PRN",
+    "name": "Impresora plotter de gran formato HP DesignJet T650 de 24 pulgadas / A1 edición 2025",
+    "price": 1378.19,
+    "pvp": 1451.0
+  },
+  {
+    "sku": "5HB09D",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/5HB09D-B19_14_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=5HB09D&opt=B19&sel=PRN",
+    "name": "Impresora plotter de gran formato HP DesignJet T630 de 24 pulgadas / A1 edición 2025",
+    "price": 1208.79,
+    "pvp": 1318.0
+  },
+  {
+    "sku": "5HB12C",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/5HB12C-B19_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=5HB12C&opt=B19&sel=PRN",
+    "name": "Impresora plotter de gran formato HP DesignJet Studio Steel de 24 pulgadas / A1 (5HB12C)",
+    "price": 1473.01,
+    "pvp": 2093.3
+  },
+  {
+    "sku": "5HB10D",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/5HB10D-B19_12_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=5HB10D&opt=B19&sel=PRN",
+    "name": "Impresora plotter de gran formato HP DesignJet T650 de 36 pulgadas / A0 edición 2025",
+    "price": 2213.09,
+    "pvp": 2358.0
+  },
+  {
+    "sku": "5HB11D",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/5HB11D-B19_11_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=5HB11D&opt=B19&sel=PRN",
+    "name": "Impresora plotter de gran formato HP DesignJet T630 de 36 pulgadas / A0 edición 2025",
+    "price": 1753.29,
+    "pvp": 2051.0
+  },
+  {
+    "sku": "F9A28D",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c06955435_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=F9A28D&opt=B19&sel=PRN",
+    "name": "Impresora plotter multifunción de gran formato HP DesignJet T830 de 24 pulgadas / A1 (F9A28D)",
+    "price": 2740.65,
+    "pvp": null
+  },
+  {
+    "sku": "2Y9H0A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/2Y9H0A-B19_3_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=2Y9H0A&opt=B19&sel=PRN&bid=DYN_BUNDLE_0010511_2Y9H0A_B19",
+    "name": "Impresora plotter de gran formato HP DesignJet T850 de 36 pulgadas / A0 (2Y9H0A) + Organizador de hojas HP DesignJet T850 (698G7A)",
+    "price": 2830.19,
+    "pvp": 3120.59
+  },
+  {
+    "sku": "2Y9H2A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/2Y9H2A-B19_3_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=2Y9H2A&opt=B19&sel=PRN&bid=DYN_BUNDLE_0010512_2Y9H2A_B19",
+    "name": "Impresora plotter multifunción de gran formato HP DesignJet T850 de 36 pulgadas / A0 (2Y9H2A) + Organizador de hojas HP DesignJet T850 (698G7A)",
+    "price": 6230.29,
+    "pvp": 6520.69
+  },
+  {
+    "sku": "5HB14A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/5HB14A-B19_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=5HB14A&opt=B19&sel=PRN",
+    "name": "Impresora plotter de gran formato HP DesignJet Studio de 36 pulgadas / A0 (5HB14A)",
+    "price": 2176.0,
+    "pvp": 3212.55
+  },
+  {
+    "sku": "8AJ60A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c06843416_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=8AJ60A&opt=&sel=PRN",
+    "name": "Alimentador automático de hojas HP DesignJet T200/T600 (8AJ60A)",
+    "price": 139.15,
+    "pvp": null
+  },
+  {
     "sku": "B3Q36A",
     "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c00736610_390x286.jpg",
     "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=B3Q36A&opt=&sel=PRN",
     "name": "Eje de 24 pulgadas HP DesignJet (B3Q36A)",
     "price": 70.18,
     "pvp": 78.65
+  },
+  {
+    "sku": "698G7A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/698G7A_6_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=698G7A&opt=&sel=PRN",
+    "name": "Organizador de hojas HP DesignJet T850 (698G7A)",
+    "price": 290.4,
+    "pvp": null
+  },
+  {
+    "sku": "698G8A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/698G8A_6_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=698G8A&opt=&sel=PRN",
+    "name": "Organizador de hojas y apiladora HP DesignJet T850 (698G8A)",
+    "price": 484.0,
+    "pvp": null
+  },
+  {
+    "sku": "5HB11A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/5HB11A-B19_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=5HB11A&opt=B19&sel=PRN",
+    "name": "Impresora plotter de gran formato HP DesignJet T630 de 36 pulgadas / A0 (5HB11A)",
+    "price": 1753.29,
+    "pvp": 2541.0
   },
   {
     "sku": "40Q47B",

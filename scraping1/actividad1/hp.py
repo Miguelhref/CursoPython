@@ -9,11 +9,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
-##################
-###################
-####NO COGE ALGUNOS PRECIOS########
-###########################
-#######################
+
 
 def scrap_hp(keyword, pages, json_file):
     results = []
@@ -22,7 +18,7 @@ def scrap_hp(keyword, pages, json_file):
     opts.add_argument("--window-position=1100,0")
     opts.add_experimental_option("excludeSwitches", ["enable-automation"])
     opts.add_experimental_option("useAutomationExtension", False)
-    #opts.add_argument("--headless")  
+    opts.add_argument("--headless")  
     
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=opts)
     driver.get("https://www.hp.es")
@@ -57,8 +53,12 @@ def scrap_hp(keyword, pages, json_file):
             
             name = name = element.css_first('a span p').text().strip()
             sku = re.search(r'id=([^&]+)', item_url).group(1)
-            pvp = element.css_first('span[data-test-hook="@hpstellar/core/price-block__strike-price"]').text().replace('.','').replace(',','.').replace('€','').strip()
-            price =  element.css_first('div[data-test-hook="@hpstellar/core/price-block__sale-price"]').text().replace('.','').replace(',','.').replace('€','').strip()
+            try:
+                pvp = element.css_first('span[data-test-hook="@hpstellar/core/price-block__strike-price"]').text().replace(' ','').replace('.','').replace(',','.').replace('€','')
+                price =  element.css_first('div[data-test-hook="@hpstellar/core/price-block__sale-price"]').text().replace(' ','').replace('.','').replace(',','.').replace('€','')
+            except Exception as e:
+                price =  element.css_first('div[data-test-hook="@hpstellar/core/price-block__sale-price"]').text().replace(' ','').replace('.','').replace(',','.').replace('€','')
+                pvp = None
             results.append({
                             "sku": sku,
                             "image_url": image_url,
