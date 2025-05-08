@@ -1,0 +1,482 @@
+[
+  {
+    "sku": "588R4B",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c08707703_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=588R4B&opt=629&sel=PRN",
+    "name": "Impresora HP DeskJet 2822e multifunción con 3 meses de Instant Ink",
+    "price": 44.9,
+    "pvp": 59.9
+  },
+  {
+    "sku": "405U8B",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c08954094_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=405U8B&opt=629&sel=PRN",
+    "name": "Impresora multifunción HP OfficeJet Pro 8125e con 3 meses en Instant Ink",
+    "price": 119.9,
+    "pvp": 149.89
+  },
+  {
+    "sku": "60K30B",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c08868584_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=60K30B&opt=629&sel=PRN",
+    "name": "Impresora HP DeskJet 4230e multifunción con 3 meses en Instant Ink",
+    "price": 59.88,
+    "pvp": 69.9
+  },
+  {
+    "sku": "2K4U7B",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c07035315_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=2K4U7B&opt=629&sel=PRN",
+    "name": "Impresora multifunción HP ENVY 6030e con 3 meses en Instant Ink",
+    "price": 69.9,
+    "pvp": 79.9
+  },
+  {
+    "sku": "714P1B",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c09045926_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=714P1B&opt=629&sel=PRN",
+    "name": "Impresora multifunción HP Envy 6530e con 3 meses en Instant Ink",
+    "price": 89.9,
+    "pvp": 109.0
+  },
+  {
+    "sku": "714J1B",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/714J1B-629_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=714J1B&opt=629&sel=PRN",
+    "name": "Impresora multifunción HP Envy 6130e con  3 meses en Instant Ink",
+    "price": 79.88,
+    "pvp": 89.0
+  },
+  {
+    "sku": "403X5B",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/403X5B-629_8_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=403X5B&opt=629&sel=PRN",
+    "name": "Impresora multifunción HP OfficeJet Pro 9125e con 3 meses en Instant Ink",
+    "price": 189.9,
+    "pvp": 229.9
+  },
+  {
+    "sku": "2H2N1B",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c07936612_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=2H2N1B&opt=629&sel=PRN",
+    "name": "Impresora multifunción HP ENVY Inspire 7221e con 3 meses en Instant Ink",
+    "price": 99.9,
+    "pvp": 119.9
+  },
+  {
+    "sku": "537P6B",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/537P6B-629_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=537P6B&opt=629&sel=PRN",
+    "name": "Impresora multifunción HP OfficeJet Pro 9730e de gran formato con 3 meses en Instant Ink",
+    "price": 249.9,
+    "pvp": 279.9
+  },
+  {
+    "sku": "Y0F74A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/Y0F74A-BHC_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=Y0F74A&opt=BHC&sel=PRN",
+    "name": "Impresora multifunción inalámbrica HP Smart Tank Plus 655",
+    "price": 199.0,
+    "pvp": 309.0
+  },
+  {
+    "sku": "404M6B",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/404M6B-629_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=404M6B&opt=629&sel=PRN",
+    "name": "Impresora multifunción HP OfficeJet Pro 9135e con 3 meses en Instant Ink",
+    "price": 249.9,
+    "pvp": 299.9
+  },
+  {
+    "sku": "6GW62F",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c06976465_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=6GW62F&opt=B19&sel=PRN",
+    "name": "Impresora HP LaserJet M209dw",
+    "price": 109.9,
+    "pvp": 159.9
+  },
+  {
+    "sku": "7MD66F",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c07603062_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=7MD66F&opt=B19&sel=PRN",
+    "name": "Impresora HP LaserJet M110w",
+    "price": 99.9,
+    "pvp": 119.9
+  },
+  {
+    "sku": "1F3Y3A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/1F3Y3A-BHC_4_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=1F3Y3A&opt=BHC&sel=PRN",
+    "name": "Impresora multifunción inalámbrica HP Smart Tank 5105",
+    "price": 178.9,
+    "pvp": 199.0
+  },
+  {
+    "sku": "53N95B",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/53N95B-629_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=53N95B&opt=629&sel=PRN",
+    "name": "Impresora multifunción HP OfficeJet Pro 9720e de gran formato con 3 meses en Instant Ink",
+    "price": 199.9,
+    "pvp": 229.9
+  },
+  {
+    "sku": "2Z606F",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c08231287_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=2Z606F&opt=B19&sel=PRN",
+    "name": "Impresora HP LaserJet Pro 4002dw",
+    "price": 238.37,
+    "pvp": 482.79
+  },
+  {
+    "sku": "5HH64F",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c08538385_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=5HH64F&opt=B19&sel=PRN",
+    "name": "Impresora multifunción HP Color LaserJet Pro 4302fdw",
+    "price": 559.0,
+    "pvp": 869.99
+  },
+  {
+    "sku": "28B54A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/28B54A-BHC_1_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=28B54A&opt=BHC&sel=PRN",
+    "name": "Impresora multifunción HP Smart Tank 7005 inalámbrica",
+    "price": 259.9,
+    "pvp": 299.0
+  },
+  {
+    "sku": "40Q46B",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/40Q46B-629_1_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=40Q46B&opt=629&sel=PRN",
+    "name": "Impresora multifunción HP OfficeJet Pro 8134e con 6 meses de Instant Ink",
+    "price": 169.9,
+    "pvp": null
+  },
+  {
+    "sku": "28B75A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/28B75A-BHC_1_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=28B75A&opt=BHC&sel=PRN",
+    "name": "Impresora multifunción HP Smart Tank 7305 inalámbrica",
+    "price": 329.89,
+    "pvp": 349.0
+  },
+  {
+    "sku": "499Q8F",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c08964459_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=499Q8F&opt=B19&sel=PRN",
+    "name": "Impresora HP Color LaserJet Pro MFP 3302fdw",
+    "price": 409.9,
+    "pvp": 559.9
+  },
+  {
+    "sku": "4RA83F",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/4RA83F-B19_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=4RA83F&opt=B19&sel=PRN",
+    "name": "Impresora multifunción HP LaserJet Pro 4302dw",
+    "price": 452.9,
+    "pvp": 591.69
+  },
+  {
+    "sku": "28C02A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/28C02A-BHC_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=28C02A&opt=BHC&sel=PRN",
+    "name": "Impresora multifunción HP Smart Tank 7605 inalámbrica",
+    "price": 349.9,
+    "pvp": 409.0
+  },
+  {
+    "sku": "4ZB96A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c06276218_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=4ZB96A&opt=B19&sel=PRN",
+    "name": "Impresora multifunción HP Color Laser 178nw",
+    "price": 269.9,
+    "pvp": 319.9
+  },
+  {
+    "sku": "8J9K9F",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c09046438_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=8J9K9F&opt=B19&sel=PRN",
+    "name": "Impresora HP LaserJet M207dw",
+    "price": 99.9,
+    "pvp": 149.89
+  },
+  {
+    "sku": "4ZB97A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c06321671_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=4ZB97A&opt=B19&sel=PRN",
+    "name": "Impresora multifunción HP Color Laser 179fnw",
+    "price": 319.9,
+    "pvp": 369.9
+  },
+  {
+    "sku": "381V1A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/381V1A-B19_2_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=381V1A&opt=B19&sel=PRN",
+    "name": "Impresora HP LaserJet Tank 2604sdw multifunción",
+    "price": 289.9,
+    "pvp": 419.89
+  },
+  {
+    "sku": "3PZ15A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c06995179_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=3PZ15A&opt=B19&sel=PRN",
+    "name": "Impresora HP LaserJet Enterprise M406dn",
+    "price": 306.9,
+    "pvp": 434.63
+  },
+  {
+    "sku": "499R0F",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c08962905_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=499R0F&opt=B19&sel=PRN",
+    "name": "Impresora HP Color LaserJet Pro 3202dw",
+    "price": 269.9,
+    "pvp": 349.9
+  },
+  {
+    "sku": "3PZ55A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c07001725_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=3PZ55A&opt=B19&sel=PRN",
+    "name": "Impresora multifunción HP LaserJet Enterprise M430f",
+    "price": 508.9,
+    "pvp": 695.99
+  },
+  {
+    "sku": "2R7F4A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/2R7F4A-B19_1_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=2R7F4A&opt=B19&sel=PRN",
+    "name": "Impresora HP LaserJet Tank 2504dw",
+    "price": 229.9,
+    "pvp": 339.9
+  },
+  {
+    "sku": "3G630F",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c08207277_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=3G630F&opt=B19&sel=PRN",
+    "name": "Impresora HP LaserJet Pro 3102fdw",
+    "price": 269.9,
+    "pvp": 379.9
+  },
+  {
+    "sku": "8J9K4F",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c09071839_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=8J9K4F&opt=B19&sel=PRN",
+    "name": "Impresora multifunción HP LaserJet M234d",
+    "price": 199.9,
+    "pvp": null
+  },
+  {
+    "sku": "CE712A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c01820913_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=CE712A&opt=B19&sel=PRN",
+    "name": "Impresora HP Color LaserJet Professional CP5225dn",
+    "price": 1456.01,
+    "pvp": 1761.76
+  },
+  {
+    "sku": "381L0A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/381L0A-B19_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=381L0A&opt=B19&sel=PRN",
+    "name": "Impresora multifunción HP LaserJet Tank 1604w",
+    "price": 239.89,
+    "pvp": 349.9
+  },
+  {
+    "sku": "4RA87F",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c08508621_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=4RA87F&opt=B19&sel=PRN",
+    "name": "Impresora HP Color LaserJet Pro 4202dn",
+    "price": 355.9,
+    "pvp": 664.29
+  },
+  {
+    "sku": "8J9L0F",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c09046390_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=8J9L0F&opt=B19&sel=PRN",
+    "name": "Impresora HP LaserJet M209d",
+    "price": 139.9,
+    "pvp": null
+  },
+  {
+    "sku": "499Q7F",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c08964459_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=499Q7F&opt=B19&sel=PRN",
+    "name": "Impresora HP Color LaserJet Pro MFP 3302fdn",
+    "price": 379.9,
+    "pvp": 519.9
+  },
+  {
+    "sku": "8D7L0A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c08962905_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=8D7L0A&opt=B19&sel=PRN",
+    "name": "Impresora HP Color LaserJet Pro 3202dn",
+    "price": 259.9,
+    "pvp": 329.89
+  },
+  {
+    "sku": "4RA84F",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c08537887_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=4RA84F&opt=B19&sel=PRN",
+    "name": "Impresora HP Color LaserJet Pro 4302fdn Multifunción",
+    "price": 692.12,
+    "pvp": 845.79
+  },
+  {
+    "sku": "2R7F3A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/2R7F3A-B19_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=2R7F3A&opt=B19&sel=PRN",
+    "name": "Impresora HP LaserJet Tank 1504w",
+    "price": 199.9,
+    "pvp": 309.91
+  },
+  {
+    "sku": "4ZB95A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c06335595_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=4ZB95A&opt=B19&sel=PRN",
+    "name": "Impresora HP Color Laser 150nw",
+    "price": 239.89,
+    "pvp": 277.11
+  },
+  {
+    "sku": "5HB07D",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/5HB07D-B19_6_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=5HB07D&opt=B19&sel=PRN",
+    "name": "Impresora plotter de gran formato HP DesignJet T230 de 24 pulgadas / A1 edición 2025",
+    "price": 846.0,
+    "pvp": null
+  },
+  {
+    "sku": "5HB06D",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/5HB06D-B19_6_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=5HB06D&opt=B19&sel=PRN",
+    "name": "Impresora plotter de gran formato HP DesignJet T250 de 24 pulgadas / A1 edición 2025",
+    "price": 918.39,
+    "pvp": 967.0
+  },
+  {
+    "sku": "5HB08D",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/5HB08D-B19_11_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=5HB08D&opt=B19&sel=PRN",
+    "name": "Impresora plotter de gran formato HP DesignJet T650 de 24 pulgadas / A1 edición 2025",
+    "price": 1378.19,
+    "pvp": 1451.0
+  },
+  {
+    "sku": "5HB09D",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/5HB09D-B19_14_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=5HB09D&opt=B19&sel=PRN",
+    "name": "Impresora plotter de gran formato HP DesignJet T630 de 24 pulgadas / A1 edición 2025",
+    "price": 1208.79,
+    "pvp": 1318.0
+  },
+  {
+    "sku": "5HB12C",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/5HB12C-B19_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=5HB12C&opt=B19&sel=PRN",
+    "name": "Impresora plotter de gran formato HP DesignJet Studio Steel de 24 pulgadas / A1 (5HB12C)",
+    "price": 1473.01,
+    "pvp": 2093.3
+  },
+  {
+    "sku": "5HB10D",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/5HB10D-B19_12_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=5HB10D&opt=B19&sel=PRN",
+    "name": "Impresora plotter de gran formato HP DesignJet T650 de 36 pulgadas / A0 edición 2025",
+    "price": 2213.09,
+    "pvp": 2358.0
+  },
+  {
+    "sku": "5HB11D",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/5HB11D-B19_11_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=5HB11D&opt=B19&sel=PRN",
+    "name": "Impresora plotter de gran formato HP DesignJet T630 de 36 pulgadas / A0 edición 2025",
+    "price": 1753.29,
+    "pvp": 2051.0
+  },
+  {
+    "sku": "F9A28D",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c06955435_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=F9A28D&opt=B19&sel=PRN",
+    "name": "Impresora plotter multifunción de gran formato HP DesignJet T830 de 24 pulgadas / A1 (F9A28D)",
+    "price": 2740.65,
+    "pvp": null
+  },
+  {
+    "sku": "2Y9H0A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/2Y9H0A-B19_3_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=2Y9H0A&opt=B19&sel=PRN&bid=DYN_BUNDLE_0010511_2Y9H0A_B19",
+    "name": "Impresora plotter de gran formato HP DesignJet T850 de 36 pulgadas / A0 (2Y9H0A) + Organizador de hojas HP DesignJet T850 (698G7A)",
+    "price": 2830.19,
+    "pvp": 3120.59
+  },
+  {
+    "sku": "2Y9H2A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/2Y9H2A-B19_3_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=2Y9H2A&opt=B19&sel=PRN&bid=DYN_BUNDLE_0010512_2Y9H2A_B19",
+    "name": "Impresora plotter multifunción de gran formato HP DesignJet T850 de 36 pulgadas / A0 (2Y9H2A) + Organizador de hojas HP DesignJet T850 (698G7A)",
+    "price": 6230.29,
+    "pvp": 6520.69
+  },
+  {
+    "sku": "8AJ60A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c06843416_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=8AJ60A&opt=&sel=PRN",
+    "name": "Alimentador automático de hojas HP DesignJet T200/T600 (8AJ60A)",
+    "price": 139.15,
+    "pvp": null
+  },
+  {
+    "sku": "3C753A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c06903000_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=3C753A&opt=&sel=PRN",
+    "name": "Soporte para impresora HP DesignJet T200/T600 de 24 pulgadas (3C753A)",
+    "price": 240.79,
+    "pvp": null
+  },
+  {
+    "sku": "B3Q37A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c00736610_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=B3Q37A&opt=&sel=PRN",
+    "name": "Eje de 36 pulgadas HP DesignJet (B3Q37A)",
+    "price": 70.18,
+    "pvp": 78.65
+  },
+  {
+    "sku": "B3Q36A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c00736610_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=B3Q36A&opt=&sel=PRN",
+    "name": "Eje de 24 pulgadas HP DesignJet (B3Q36A)",
+    "price": 70.18,
+    "pvp": 78.65
+  },
+  {
+    "sku": "698G7A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/698G7A_6_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=698G7A&opt=&sel=PRN",
+    "name": "Organizador de hojas HP DesignJet T850 (698G7A)",
+    "price": 290.4,
+    "pvp": null
+  },
+  {
+    "sku": "698G8A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/698G8A_6_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=698G8A&opt=&sel=PRN",
+    "name": "Organizador de hojas y apiladora HP DesignJet T850 (698G8A)",
+    "price": 484.0,
+    "pvp": null
+  },
+  {
+    "sku": "5HB11A",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/5HB11A-B19_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=5HB11A&opt=B19&sel=PRN",
+    "name": "Impresora plotter de gran formato HP DesignJet T630 de 36 pulgadas / A0 (5HB11A)",
+    "price": 1753.29,
+    "pvp": 2541.0
+  },
+  {
+    "sku": "40Q47B",
+    "image_url": "https://www.hp.com/es-es/shop/Html/Merch/Images/c08954094_390x286.jpg",
+    "item_url": "https://www.hp.com/es-es/shop/product.aspx?id=40Q47B&opt=629&sel=PRN",
+    "name": "Impresora multifunción HP OfficeJet Pro 8135e con 3 meses en Instant Ink",
+    "price": 139.9,
+    "pvp": 169.9
+  }
+]
