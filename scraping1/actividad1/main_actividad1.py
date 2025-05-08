@@ -32,7 +32,7 @@ import threading
 ##JDSPorts no carga a tiempo las imagenes
 ####Falta FNAC, Me bloquea todo el rato
 
-
+TOKEN_BBDD= "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGllbnQiOnRydWUsImlhdCI6MTc0NjY5MTM5MS42NjU5OTJ9.gebJCnB2mDIY9McfocdH4Z-m7--NfxDeP4AfewPDOi0"
 keyword = 'monitor'
 
 #carrefour.search(keyword)
@@ -103,6 +103,7 @@ def run_hp():
     scrap_hp(keyword, 3, f"{keyword}_hp")
 
 def run_ldlc():
+    
     scrap_ldlc(keyword, 3, f"{keyword}_ldlc")
 
 

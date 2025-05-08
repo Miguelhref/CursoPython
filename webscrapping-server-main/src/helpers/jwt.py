@@ -4,7 +4,7 @@ import time
 import jwt
 
 from typing import Dict
-#JWT_SECRET = os.getenv("JWT_SECRET_KEY", "abc123.")  # Cambiado por miguel, volver a modificar
+
 JWT_SECRET = os.getenv("JWT_SECRET_KEY")
 JWT_ALGORITHM = 'HS256'
 
@@ -28,4 +28,6 @@ if __name__ == "__main__":
     print("Token JWT:", token)
 '''
 print("------------------------------------------------------")
-print(create_access_token())
+print('TOKEN DE ACCESO A LA API:',create_access_token())
+print("------------------------------------------------------")
+

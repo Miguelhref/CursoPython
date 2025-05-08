@@ -1,5 +1,6 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes, CallbackContext
+
 import requests
 import logging
 import re
@@ -7,6 +8,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 token = os.getenv('BOT_API')
+TOKEN_BBDD = os.getenv('TOKEN_BBDD')
 #Mostrar los log
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
@@ -57,7 +59,7 @@ async def keyword(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "landing_url": landing_url
         }
 
-        token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGllbnQiOnRydWUsImlhdCI6MTYyNjc3ODAwMX0.AEgTfrLQ4jSiz7mnIZObimW0BDSVDjkaCbbvzp5vfAk'
+        token = TOKEN_BBDD
 
         url = 'http://localhost:8001/keyword/add'
 
@@ -127,7 +129,7 @@ async def update_keyword(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         url = f'http://localhost:8001/keyword/update/{keyword_id}'
 
-        token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGllbnQiOnRydWUsImlhdCI6MTYyNjc3ODAwMX0.AEgTfrLQ4jSiz7mnIZObimW0BDSVDjkaCbbvzp5vfAk'
+        token = TOKEN_BBDD
 
         headers = {
             'Authorization': f'Bearer {token}'
@@ -159,7 +161,7 @@ async def delete(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         url = f'http://localhost:8001/keyword/delete/{keyword_id}'
 
-        token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGllbnQiOnRydWUsImlhdCI6MTYyNjc3ODAwMX0.AEgTfrLQ4jSiz7mnIZObimW0BDSVDjkaCbbvzp5vfAk'  
+        token = TOKEN_BBDD
 
         headers = {
             'Authorization': f'Bearer {token}'
@@ -191,7 +193,7 @@ async def view(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         url = f'http://localhost:8001/keyword/{keyword_id}'
 
-        token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGllbnQiOnRydWUsImlhdCI6MTYyNjc3ODAwMX0.AEgTfrLQ4jSiz7mnIZObimW0BDSVDjkaCbbvzp5vfAk'  
+        token = TOKEN_BBDD
 
         headers = {
             'Authorization': f'Bearer {token}'
@@ -258,7 +260,7 @@ async def get_keywords_by_store(update: Update, context: ContextTypes.DEFAULT_TY
         store_id = int(context.args[0])
 
         base_url = "http://localhost:8001"
-        token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGllbnQiOnRydWUsImlhdCI6MTYyNjc3ODAwMX0.AEgTfrLQ4jSiz7mnIZObimW0BDSVDjkaCbbvzp5vfAk' 
+        token = TOKEN_BBDD
 
         headers = {
             'Authorization': f'Bearer {token}'

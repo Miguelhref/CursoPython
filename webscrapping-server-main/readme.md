@@ -12,7 +12,8 @@ uvicorn --app-dir=.\src\server\ main:app --reload
 
 -Librerias adicionales necesarias:
 pip install telegram
-pip install telegram.bot
+pip install python-telegram-bot
+
 
 
 Notas Miguel:
@@ -20,3 +21,5 @@ Notas Miguel:
 -Notas en 'keyword.py'
 -Notas en 'token.py'
 -cambios en helpers/jwt.py
+-Añadida una variable de entorno 'TOKEN_BBDD'
+-Asignada la variable 'TOKEN_BBDD' a 'token' en cada funcion del bot
