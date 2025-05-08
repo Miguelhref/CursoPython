@@ -21,6 +21,7 @@ from jack_jones import scrap_jack_jones
 from about_you import scrap_aboutyou
 from euronics import scrap_euronics
 from hp import scrap_hp
+from ldlc import scrap_ldlc
 #from fnac import scrap_fnac
 import threading
 
@@ -32,7 +33,7 @@ import threading
 ####Falta FNAC, Me bloquea todo el rato
 
 
-keyword = 'impresora'
+keyword = 'monitor'
 
 #carrefour.search(keyword)
 #scrap_lefties(archivo_json="sudaderas_lefties",keyword=keyword)
@@ -101,6 +102,9 @@ def run_euronics():
 def run_hp():
     scrap_hp(keyword, 3, f"{keyword}_hp")
 
+def run_ldlc():
+    scrap_ldlc(keyword, 3, f"{keyword}_ldlc")
+
 
 
 # Crear los hilos
@@ -125,7 +129,8 @@ threads = [
     #threading.Thread(target=run_jack_jones())
     #threading.Thread(target=run_about_you())
     #threading.Thread(target=run_euronics())
-    threading.Thread(target=run_hp())
+    #threading.Thread(target=run_hp())
+    threading.Thread(target=run_ldlc())
   
    #  
 ]
